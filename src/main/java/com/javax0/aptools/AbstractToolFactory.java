@@ -21,7 +21,7 @@ import javax.lang.model.element.ExecutableElement;
  */
 public abstract class AbstractToolFactory {
   public static ElementTool element(Element element) {
-    return new ElementTool(element);
+    return new ElementTool(new Aptools(element));
   }
 
   /**
@@ -31,7 +31,7 @@ public abstract class AbstractToolFactory {
    * @return
    */
   public static AnnotationTool annotation(AnnotationMirror annotationMirror) {
-    return new AnnotationTool(annotationMirror);
+    return new AnnotationTool(new Aptools(annotationMirror));
   }
 
   /**
@@ -41,7 +41,7 @@ public abstract class AbstractToolFactory {
    * @return
    */
   public static MethodTool method(ExecutableElement methodElement) {
-    return new MethodTool(methodElement);
+    return new MethodTool(new Aptools(methodElement));
   }
 
   /**
@@ -52,6 +52,6 @@ public abstract class AbstractToolFactory {
    * @return the new {@link StringTool}
    */
   public static StringTool string(String s) {
-    return new StringTool(s);
+    return new StringTool(new Aptools(s));
   }
 }
