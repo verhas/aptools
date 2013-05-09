@@ -15,7 +15,7 @@
 	</properties>
 	<scm>
 		<connection>scm:git:git@github.com:verhas/apttols.git</connection>
-		<url>https://github.com/verhas/apttools</url>
+		<url>scm:git:git@github.com:verhas/apttols.git</url>
 		<developerConnection>scm:git:git@github.com:verhas/apttols.git</developerConnection>
 	</scm>
 	<build>
