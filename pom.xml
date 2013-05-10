@@ -14,9 +14,9 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<scm>
-		<connection>scm:git:git@github.com:verhas/aptols.git</connection>
+		<connection>scm:git:git@github.com:verhas/aptools.git</connection>
 		<url>https://github.com/verhas/aptools</url>
-		<developerConnection>scm:git:git@github.com:verhas/aptols.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:verhas/aptools.git</developerConnection>
 	</scm>
 	<build>
 		<plugins>
