@@ -22,9 +22,6 @@ public class There {
    * to make a call more readable when the argument is a variable or an
    * expression that can be read plural e.g.: {@code There.is(strings)} is less
    * readable than {@code There.are(strings)}.
-   * 
-   * @param o
-   * @return
    */
   public static boolean are(Object[] o) {
     return is(o);

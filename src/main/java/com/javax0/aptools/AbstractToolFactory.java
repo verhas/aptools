@@ -26,9 +26,6 @@ public abstract class AbstractToolFactory {
 
   /**
    * Create a {@link AnnotationTool} that can be used to manage the element.
-   * 
-   * @param methodElement
-   * @return
    */
   public static AnnotationTool annotation(AnnotationMirror annotationMirror) {
     return new AnnotationTool(new Aptools(annotationMirror));
@@ -36,9 +33,6 @@ public abstract class AbstractToolFactory {
 
   /**
    * Create a {@link MethodTool} that can be used to manage the element.
-   * 
-   * @param methodElement
-   * @return
    */
   public static MethodTool method(ExecutableElement methodElement) {
     return new MethodTool(new Aptools(methodElement));
