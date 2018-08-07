@@ -4,6 +4,6 @@ package com.javax0.aptools;
  * Alias class for {@link AbstractToolFactory}
  *
  */
-public class FromThe extends AbstractToolFactory {
+public final class FromThe extends AbstractToolFactory {
 
 }
